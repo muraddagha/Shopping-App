@@ -1,0 +1,30 @@
+#team-members {
+    padding-block: 70px;
+    .team-item {
+        .item-name {
+            font-weight: bold;
+            font-size: 14px;
+        }
+        .item-text,
+        .item-contact {
+            color: #747474;
+            font-size: 13px;
+        }
+        .item-contact {
+            i {
+                font-size: 16px;
+            }
+        }
+        .item-info {
+            font-size: 12px;
+            color: #a7a7a7;
+        }
+        .item-icons {
+            color: #bfbfbf;
+            i {
+                font-size: 25px;
+                padding-right: 5px;
+            }
+        }
+    }
+}

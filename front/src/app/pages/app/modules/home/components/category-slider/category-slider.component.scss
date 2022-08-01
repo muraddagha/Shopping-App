@@ -1,0 +1,30 @@
+#category {
+    padding-block: 70px;
+    .category-content {
+        .title {
+            font-size: 30px;
+            font-style: italic;
+            font-weight: 900;
+            color: black;
+        }
+        .subtitle {
+            color: #BFBCB4;
+            font-size: 16px;
+            font-weight: bold;
+        }
+    }
+    .category-card {
+        padding: 10px;
+        .card-footer {
+            padding-block: 15px;
+            .card-title {
+                font-size: 18px;
+            }
+            .card-subtitle {
+                font-size: 14px;
+                color: #747474;
+                
+            }
+        }
+    }
+}

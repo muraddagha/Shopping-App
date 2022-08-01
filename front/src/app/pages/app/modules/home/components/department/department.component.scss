@@ -1,0 +1,20 @@
+#department {
+    .department-wrapper {
+        display: flex;
+        flex-wrap: nowrap;
+        .department-item {
+            position: relative;
+            .content {
+                position: absolute;
+                bottom: 30px;
+                left: 10px;
+                color: white;
+                writing-mode: tb;
+                transform: rotate(180deg);
+                .title {
+                    font-weight: 700;
+                }
+            }
+        }
+    }
+}
